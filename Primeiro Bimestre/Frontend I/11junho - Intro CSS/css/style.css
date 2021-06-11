@@ -1,0 +1,25 @@
+body {
+    background-color: grey;
+}
+
+header {
+    background-color: chartreuse;
+}
+
+p {
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#progress {
+    text-align: justify;
+    text-decoration:greenyellow;
+}
+
+button {
+    background-color: green;
+}
+
+h2 {
+    color: hotpink;
+}

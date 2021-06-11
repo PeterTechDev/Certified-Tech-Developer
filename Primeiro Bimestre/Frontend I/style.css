@@ -1,0 +1,49 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(224, 243, 236);
+    /* width: 80%; */
+}
+
+header {
+   /* position: absolute; */
+   background-color: aquamarine;
+   width: 100%;
+   height: 130px;
+   
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+nav {
+  padding-right: 40px;
+}
+
+header img {
+    padding-left: 20px;
+}
+
+article {
+    padding-top: 20px;
+}
+
+main {
+    width: 80%;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+ol {
+    display: flex;
+    flex-direction: row ;
+}
+
+a {
+    text-decoration: none;
+}
+
+#foto {
+    margin-left: 550px;
+    padding-top: 50px;
+}
