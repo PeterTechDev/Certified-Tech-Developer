@@ -75,3 +75,4 @@ const hatTrick = () => {
 }
 precoEmDolares = precoEmDolares + (precoEmDolares*0.10);
 console.log('Hatrick do ' + nomeJogador + 'e seu preço subiu para ' + precoEmDolares);
+    

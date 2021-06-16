@@ -1,0 +1,41 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: azure;
+}
+
+header {
+    width: 100%;
+    background-color: aqua;
+    padding: 10px;
+
+
+    display: flexbox;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul {
+    display:inline;
+}
+
+li {
+    list-style-type: none;
+    font-weight: bold;
+}
+
+main {
+    padding-left: 20px;
+}
+
+p  {
+    text
+}
