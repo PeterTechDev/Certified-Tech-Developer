@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+a {
+    color: black
+}
+
+header {
+    padding: 25px;
+    background-color: rgb(155, 155, 155);
+    width: 100%;
+    position: fixed;
+    top: 0;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+header a:hover {
+    background-color: rgb(240, 62, 98);
+    border-radius: 10%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+header a {
+    float: left;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    border-style:;
+    border-radius: 20px;
+    border-color: rgb(240, 62, 98);
+}
+
+#banner {
+    width: 100%;
+    margin-top: 100px;
+    background-color: rgb(140,108,241);
+    text-align: center;
+}
+
+
+
+body {
+    background-color: rgb(250, 250, 250);
+}
+
+h1 {
+    padding: 15px 0px;
+    margin-top: 100px;
+
+}
+
+h2 {
+    padding: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+article {
+    padding: 20px 40px;
+}
+
+section {
+    padding-bottom: 30px;
+}
+
+
+#languages {
+    display: flex;
+    justify-content: center;
+}
+
+.gif {
+    margin: 100px;
+
+}
+
+.gif img {
+    margin: 0 42%;
+}
+
+
+#profiles{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#rafa {
+    width: 300px;
+    margin-right: 100px;
+}
+
+#rafa img {
+    border-radius: 40%;
+    padding-bottom: 10px;
+}
+
+#thiago {
+    width: 300px;
+}
+
+#thiago img {
+    border-radius: 40%;
+    padding-bottom: 10px;
+}
+
+#profiles h2 {
+    text-decoration: none;
+    padding: 10px;
+}
+
+#teachers img:hover {
+    width: 220px;
+    transition-duration:0.5s;
+}
+
+hr {
+    margin: 100px;
+}
+
+#content {
+    display: flex;
+    /* flex-grow: 1; */
+    
+}
+
+.modulo {
+    border-style: solid;
+    width: 25%;
+    padding: 10px;
+}
+
+#gif2 {
+    text-align: center;
+}
+
+#gif2 h1 {
+    padding:20px 20px ;
+    margin-right: 50px;
+    text-align: center;
+}
+
+#zap{
+
+    width: 10%;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+} 
+
+footer {
+    background-color: dimgray;
+}
+
+footer {
+    background-color: none;
+    text-align: center;
+    height: 100px;
+    padding: 10px;
+}
