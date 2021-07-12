@@ -1,0 +1,47 @@
+/* ================================= 
+  Transições do Button
+==================================== */
+
+.button {
+	color: #fff;
+	background: #4a89ca;
+	transition-duration: 0.4s, .5s;
+	/* a segunda animação vai ter o.5sec de duração*/
+	transition-property: background, border-radius;
+}
+
+.button:hover {
+	background: #d36a62;
+	border-radius: 10px;
+}
+
+.button:active {
+	background: #a33830;
+	color: green;
+	border-radius: 30px;
+}
+
+/* ================================= 
+  Transições da Foto
+==================================== */
+
+.photo-overlay {
+	opacity: 0;
+	transition-property: opacity;
+	transition-duration: .5s;
+	transform: rotate(90deg);
+	/*gira nova graus*/
+	transition-duration: 0.5s;
+	transition-property: opacity, transform;
+}
+
+.photo-overlay:hover {
+	opacity: 1;
+	transform: rotate(0deg);
+}
+
+.photo-overlay:hover p, 
+.photo-overlay:hover h3 {
+	transform: rotate(0deg);
+}
+
