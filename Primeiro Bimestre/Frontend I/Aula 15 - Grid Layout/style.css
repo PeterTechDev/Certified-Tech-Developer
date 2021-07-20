@@ -1,0 +1,60 @@
+
+
+main {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr); /*é o mesmo que escrever 1fr X vezes*/
+    /* grid-template-rows: repeat(7, 1fr); */
+    grid-auto-rows: auto;
+    grid-auto-rows: 10vh;
+    grid-gap: 10px; /*faz o 'padding' entre os grid itens*/
+
+
+    /* outra forma de selecionar a area do grid */
+    grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "section1 section1 aside"
+    "section1 section1 aside"
+    "section2 section2 aside"
+    "section2 section2 aside"
+    "section2 section2 aside"
+    "section2 section2 aside"
+    "footer footer footer"
+    ;
+    
+}
+
+
+
+.header {
+    background-color: #D2F7FF;
+
+    grid-area: header;
+}
+
+.nav {
+    background-color: #D2F7FF;
+    grid-area: nav;
+}
+    
+.section1 {
+    background-color: #CBF4DA;
+
+    grid-area: section1;
+}
+
+.section2 {
+    background-color: #CBF4DA;
+    grid-area: section2;
+}
+
+.aside {
+    background-color: #FFD6AA;
+    grid-area: aside;
+}
+
+.footer {
+    background-color: #D1D2FF;
+    grid-area: footer;
+}
