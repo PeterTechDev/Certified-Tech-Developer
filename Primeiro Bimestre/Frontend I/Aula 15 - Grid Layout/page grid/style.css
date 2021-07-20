@@ -1,0 +1,134 @@
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 800;
+    color: #283e68;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    /*assim como no flex, o display deve ser colocado na 'pai' dos elementos que serão os grid itens*/
+    height: 97vh;
+    /*100% da altura do viewport para ser responsivo*/
+    grid-template-columns: repeat(4, 1fr);
+    /*define a quantidade e tamanho das colunas - poderia escrever 1fr quatro vezes para o mesmo resulta*/
+    grid-template-rows: .2fr .1fr 1.5fr 1.2fr .3fr;
+    /*define a quantidade e tamanho das linhas*/
+    grid-template-areas:
+        "header header header header"
+        "nav nav nav nav"
+        "main main main aside"
+        "section1 section2 section3 aside"
+        "footer footer footer footer"
+    ;
+
+    /*desta forma é possível 'desenhar de forma escrita o layout da sua página*/
+    /*só surtirá efeito após definir o grid-area nos grid itens*/
+    grid-gap: 0.2rem;
+    /*cria um espaço responsivo entre os grid itens*/
+}
+
+header {
+    background: #D2F7FF;
+    grid-area: header;
+    /*define a 'identificação' de cada area*/
+
+    border-radius: 6px;
+    padding-top: 5px;
+
+}
+
+nav {
+    background: #a8e5f3;
+    grid-area: nav;
+    
+    border-radius: 6px;
+    padding-top: 5px;
+}
+
+main {
+    background: #e9e8b7;
+    grid-area: main;
+    
+    border-radius: 6px;
+    padding-top: 5px;
+}
+
+aside {
+    background: #FFD6AA;
+    grid-area: aside;
+    
+    border-radius: 6px;
+    padding-top: 5px;
+}
+
+#section1 {
+    background: #CCF4DA;
+    grid-area: section1;
+    
+    border-radius: 6px;
+    padding-top: 5px;
+
+}
+
+#section2 {
+    background: #a5d6b6;
+    grid-area: section2;
+    
+    border-radius: 6px;
+    padding-top: 5px;
+
+}
+
+#section3 {
+    background: #70ad86;
+    grid-area: section3;
+    
+    border-radius: 6px;
+    padding-top: 5px;
+}
+
+footer {
+    background: #D1D2FF;
+    grid-area: footer;
+    
+    border-radius: 6px;
+    padding-top: 5px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    /*definindo o valor de tamanho de tela no qual o css irá mudar*/
+    .container {
+        grid-template-columns: 1fr;
+        /*no mobile será apenas uma coluna*/
+
+        grid-template-rows: 0.4fr 0.3fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
+        /*definindo o novo tamanho relativo de cada linha - exige bastante testes*/
+        grid-template-areas:
+            /*definindo novo layout*/
+            "header"
+            "nav"
+            "aside  "
+            "main"
+            "section1"
+            "section2"
+            "section3"
+            "footer";
+    }
+    .assinatura {
+        width: 80px;
+    }
+}
+
+footer > div {
+    font-size: 0.7rem;
+    width: 13%;
+
+}
+
+a {
+    text-decoration: none;
+}
