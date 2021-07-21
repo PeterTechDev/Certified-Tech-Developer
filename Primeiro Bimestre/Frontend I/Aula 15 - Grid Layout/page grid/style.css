@@ -126,7 +126,10 @@ footer {
 footer > div {
     font-size: 0.7rem;
     width: 13%;
+}
 
+.assinatura p {
+    margin: 0;
 }
 
 a {
