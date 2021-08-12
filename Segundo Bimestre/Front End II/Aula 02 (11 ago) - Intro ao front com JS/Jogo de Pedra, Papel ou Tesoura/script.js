@@ -1,66 +1,44 @@
 
-// let maoUsuario = prompt("Digite um número entre (1) pedra, (2) papel e (3) tesoura")
-//     //confirm valor boleano = ok e cancelar
-//     //alert aviso com um botão de ok
-//     //prompt caixa de diálogo
-// let maoMaquina = parseInt(Math.random() * 2 + 1)
+// Desafio - com professor
+// Programaremos um pequeno jogo de Pedra, Papel ou Tesoura. Neste jogo o usuário poderá escolher entre uma das três opções e o computador escolherá aleatoriamente uma das três opções, essas opções serão então comparadas e no final será mostrado quem ganhou e quem perdeu a disputa. Para fazer essa atividade é importante lembrar das regras básicas deste jogo:
 
-// if (maoUsuario == 1) {
-//     if (maoMaquina == 1) {
-//         console.log("empate")
-//     } else if (maoMaquina == 2) {
-//         console.log("perdeu")
-//     } else if (maoMaquina == 3) {
-//         console.log("venceu")
-//     }
-// }
+//REGRAS DO JOGO
+// Pedra ganha de Tesoura.
+// Tesoura ganha de Papel.
+// Papel ganha de Pedra.
 
-// if (maoUsuario == 2) {
-//     if (maoMaquina == 1) {
-//         console.log("venceu")
-//     } else if (maoMaquina == 2) {
-//         console.log("empate")
-//     } else if (maoMaquina == 3) {
-//         console.log("perdeu")
-//     }
-// }
+let maoUsuario = parseInt(prompt("Pedra(1), papel(2) ou tesoura(3)?"))
+    //confirm valor boleano = ok e cancelar
+    //alert aviso com um botão de ok
+    //prompt caixa de diálogo
+let maoMaquina = parseInt(Math.random() * 2 + 1)
 
-// if (maoUsuario == 3) {
-//     if (maoMaquina == 1) {
-//         console.log("perdeu")
-//     } else if (maoMaquina == 2) {
-//         console.log("venceu")
-//     } else if (maoMaquina == 3) {
-//         console.log("empate")
-//     }
-// }
+if (maoUsuario == 1) {
+    if (maoMaquina == 1) {
+        console.log("empate")
+    } else if (maoMaquina == 2) {
+        console.log("perdeu")
+    } else if (maoMaquina == 3) {
+        console.log("venceu")
+    }
+}
 
-// // mario
-// let maoMaquina = 
-// function jogo(maoUsuario, maoMaquina) {
-//   if (maoUsuario == 1)
-//     switch (maoMaquina) {
-//       case 1:
-//         alert("Empate");
-//         break;
-//       case 2:
-//         alert("Ganhou");
-//         break;
-//       case 3:
-//         alert("Perdeu");
-//         break;
-//     }
-// }
+if (maoUsuario == 2) {
+    if (maoMaquina == 1) {
+        console.log("venceu")
+    } else if (maoMaquina == 2) {
+        console.log("empate")
+    } else if (maoMaquina == 3) {
+        console.log("perdeu")
+    }
+}
 
-// jogo(maoUsuario1, maoMaquina);
-
-
-let meuObjeto = {
-    mensagem: 'Mensagem de texto',
-    utilidade: 'Prova de JS'
- };
- 
- let meuArray = [ 'Primeira mensagem do array”, ”Segunda mensagem do array”, “Terceira mensagem do array']
- 
- console.table(meuObjeto);
- console.table(meuArray);
+if (maoUsuario == 3) {
+    if (maoMaquina == 1) {
+        console.log("perdeu")
+    } else if (maoMaquina == 2) {
+        console.log("venceu")
+    } else if (maoMaquina == 3) {
+        console.log("empate")
+    }
+}
