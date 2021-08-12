@@ -1,4 +1,5 @@
 let notas = [9, 5, 8, 10];
+//  EXERCICIO
 // Crie uma estrutura na qual todos os números do array sejam somados sequencialmente: o primeiro número seja somado ao segundo e o resultado seja impresso no console e assim por diante
 // Por fim, a soma desses números deve ser dividida pelo total de bimestres (4) para calcular a média e guardada em uma variável, a qual deve ser exibida no console.
 
@@ -30,7 +31,7 @@ somaNotas(notas)
 console.log(`A média foi de: ${mediaNotas(notas)}`)
 
 
-//EXTRA: 
+// EXERCICIO EXTRA: 
 // 1.Utilizando a função console.log informe a nota que o aluno teve em cada um dos
 // bimestres e por fim sua nota final. Por exemplo: “Parabéns pela conclusão do primeiro
 // bimestre. Sua nota foi: 8.”;
