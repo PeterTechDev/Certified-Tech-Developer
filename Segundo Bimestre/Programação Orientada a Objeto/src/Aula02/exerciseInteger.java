@@ -1,16 +1,16 @@
 package Aula02;
 
-//import.lang.Integer;
-
 public class exerciseInteger {
     public static void main(String[] args) {
-        Integer first = 3;
-        Integer second = 16;
+        Integer first = 30;
+        Integer second = 30;
 
-        if(first < second) {
-            System.out.println("O primeiro é menor");
+        if (first < second) {
+            System.out.println(first + " é menor que " + second);
+        } else if (first == second) {
+            System.out.println("São iguais");
         } else {
-            System.out.println("O segundo é maior");
+            System.out.println(first + " é maior que " + second);
         }
     }
 }
