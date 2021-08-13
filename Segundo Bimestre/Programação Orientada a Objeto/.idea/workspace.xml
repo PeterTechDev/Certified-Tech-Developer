@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9febab31-e35a-48a0-8500-55bba631ab24" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula02/exerciseInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula02/exerciseInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.exerciseInteger">
+  <component name="RunManager" selected="Application.exerciseIntegrador">
     <configuration name="AtivProf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aula01.AtivProf" />
       <module name="Programação Orientada a Objeto" />
@@ -84,6 +83,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="exerciseIntegrador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aula02.exerciseIntegrador" />
+      <module name="Programação Orientada a Objeto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Aula02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="exerciseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aula02.exerciseString" />
       <module name="Programação Orientada a Objeto" />
@@ -99,6 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.exerciseIntegrador" />
         <item itemvalue="Application.exerciseInteger" />
         <item itemvalue="Application.exerciseString" />
         <item itemvalue="Application.exercicioVerificarNumPrimo" />
