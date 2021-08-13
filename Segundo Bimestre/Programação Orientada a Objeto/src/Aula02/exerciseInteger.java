@@ -1,4 +1,11 @@
 package Aula02;
+/*
+Defina duas variáveis Integer e determine pelo valor delas qual é maior, qual é menor ou se são
+iguais.
+Mostre o resultado obtido.
+
+ */
+
 
 public class exerciseInteger {
     public static void main(String[] args) {

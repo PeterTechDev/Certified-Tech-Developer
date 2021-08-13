@@ -1,4 +1,10 @@
 package Aula02;
+/*
+EXERCICIO
+Defina duas sequências de texto.
+Verifique se são iguais ou diferentes e indique por meio de mensagem.
+ */
+
 
 public class exerciseString {
     public static void main (String[] args){
