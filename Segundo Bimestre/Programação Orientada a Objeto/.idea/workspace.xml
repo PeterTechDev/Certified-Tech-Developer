@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9febab31-e35a-48a0-8500-55bba631ab24" name="Changes" comment="" />
+    <list default="true" id="9febab31-e35a-48a0-8500-55bba631ab24" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Front End II/Aula 04 (17 ago) - Introdução ao DOM/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front End II/Aula 04 (17 ago) - Introdução ao DOM/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,15 +42,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="android.project.structure" />
   </component>
-  <component name="RunManager" selected="Application.exerciseIntegrador">
-    <configuration name="AtivProf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aula01.AtivProf" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aula05.Main" />
       <module name="Programação Orientada a Objeto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Aula01.*" />
+          <option name="PATTERN" value="Aula05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.exerciseIntegrador" />
         <item itemvalue="Application.exerciseInteger" />
         <item itemvalue="Application.exerciseString" />
         <item itemvalue="Application.exercicioVerificarNumPrimo" />
-        <item itemvalue="Application.AtivProf" />
       </list>
     </recent_temporary>
   </component>
