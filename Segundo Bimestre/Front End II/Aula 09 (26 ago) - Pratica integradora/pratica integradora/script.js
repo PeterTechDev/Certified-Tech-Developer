@@ -17,6 +17,7 @@ title.innerText = 'Cadastro'
 
 
 //CRIAÇÃO DOS INPUTS
+//TODO: add o atributo required nos inputs
 //email
 const email = document.createElement('input');
 email.setAttribute('placeholder', 'Digite seu email');
@@ -25,12 +26,12 @@ formChild(email);
 //senha
 const password = document.createElement('input')
 password.setAttribute('placeholder', 'Digite sua senha');
-password.setAttribute('type', 'passoword');
+password.setAttribute('type', 'password');
 formChild(password);
 //confirmar senha
 const passwordConfirm = document.createElement('input')
 passwordConfirm.setAttribute('placeholder', 'Confirme sua senha');
-passwordConfirm.setAttribute('type', 'passoword');
+passwordConfirm.setAttribute('type', 'password');
 formChild(passwordConfirm);
 //botão enviar
 const sendButton = document.createElement('button');
@@ -48,26 +49,48 @@ formChild(cancelButton);
 //mas quando o mouse estiver acima desse campo ele vai perder essa propriedade possibilitando a modificação do conteúdo pelo usuário.
 //Quando o mouse sair do input e o mesmo tiver preenchido, ele receberá a propriedade disabled novamente.
 
+//captura todos os inputs
 const inputs = document.querySelectorAll('input');
-// desativar.forEach(element => {
-//     element.setAttribute('disabled', 'true')
-// });
 
-// form.setAttribute('disabled', 'true')
+//evento ativado quando houver uma mudança no form
+form.addEventListener('change', () => { desabilitarInputs() });
 
-// password.addEventListener('Mouse', ()=>{
-//     password.setAttribute('disabled', 'false')
-//     console.log('ahhhhhh')
-// })
-// const disbable =(element)=>{
-//     if (element.value != '') {
-//         element.setAttribute('disabled', 'true');
-//     }
-// };
+//função para desabilitar os inputs se estiverem preenchidos
+const desabilitarInputs = () => {
+    inputs.forEach(element => {
+        if (element.value != '') {
+            element.setAttribute('disabled', true)
+        }
+    })
+}
 
+//função para habilitar o input quando clicado e desabilitar os demais
+email.addEventListener('pointerdown', () => {
+    desabilitarInputs();
+    email.removeAttribute('disabled')
+})
 
+password.addEventListener('pointerdown', () => {
+    desabilitarInputs();
+    password.removeAttribute('disabled')
+})
 
-password.addEventListener('focus', ()=> console.log('ativar'))
+passwordConfirm.addEventListener('pointerdown', () => {
+    desabilitarInputs();
+    passwordConfirm.removeAttribute('disabled')
+})
 
+//verificar se as senhas estão iguais
+const checkPassword = ()=>{
+    if(password.value != passwordConfirm.value){
+        alert('As senhas não coincidem')
+    }
+}
 
+//add a verificação das senhas ao clicar em enviar
+sendButton.addEventListener('click', ()=>{checkPassword()} )
 
+//add prevant default no botão cancelar
+cancelButton.addEventListener('click', event => {
+    event.preventDefault(confirm('Tem certeza que deseja resetar os dados inseridos ?'))
+})
