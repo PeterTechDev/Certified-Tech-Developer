@@ -37,9 +37,10 @@ emailInput.setAttribute('disabled', true);
 
 // Insira um estilo da sua escolha, a sugestão seria o display flex com flex-direction column.
 form.style.display = 'flex'
-form.style.flexDirection = 'collumn'
+form.style.display.flexDirection = 'collumn'
 
 form.style.textAlign = 'center'
 
 // Remova o atributo placeholder do email.
 emailInput.removeAttribute('placeholder')
+
