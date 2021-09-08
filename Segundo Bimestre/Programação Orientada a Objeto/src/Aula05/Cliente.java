@@ -5,7 +5,7 @@ public class Cliente {
     private String nome;
     private double divida;
 
-     Cliente(int num, String nome){
+    Cliente(int num, String nome) {
         this.numCliente = num;
         this.nome = nome;
         this.divida = 0;
@@ -35,17 +35,16 @@ public class Cliente {
         this.nome = nome;
     }
 
-    public double aumentarDivida(double valor){
+    public double aumentarDivida(double valor) {
         this.divida = divida + valor;
         return this.divida;
 
     }
 
-    public String pagarDivida(){
+    public String pagarDivida() {
         this.divida = 0;
         return "Sua divida foi paga";
     }
-
 
 
 }

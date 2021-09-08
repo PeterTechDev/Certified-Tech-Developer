@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9febab31-e35a-48a0-8500-55bba631ab24" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Infraestrutura/aula06/.vagrant/rgloader/loader.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Infraestrutura/aula06/ubuntu-xenial-16.04-cloudimg-console.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Infraestrutura/aula06/vagrantfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula05/Mesa/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula05/Mesa/UsuarioJogo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula06/Impressora.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula06/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula06/Impressora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula06/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula05/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula05/Cliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula05/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula05/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula05/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula05/Cliente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +46,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="android.project.structure" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
