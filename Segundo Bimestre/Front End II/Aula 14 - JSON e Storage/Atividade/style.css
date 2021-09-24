@@ -9,6 +9,10 @@ h1{
     text-align: center;
 }
 
+h3{
+    padding-top: 20px;
+}
+
 .container{
     margin: 50px auto;
     display: flex;
@@ -31,10 +35,11 @@ h1{
 
 .board{
     width: 400px;
-    display: flex;
-    border: 1px solid #000;
+    /* display: flex; */
+    /* border: 1px solid #000; */
     margin: auto;
     align-items: center;
+
 }
 
 .board h3, p{
