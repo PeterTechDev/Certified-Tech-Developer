@@ -15,11 +15,12 @@ function Question(name, theme, comentary) {
 
 function createObjQuestion(name, theme, comentary) {
     questions.push(new Question(name.value, theme.value, comentary.value))
+    console.log(questions);
 }
 
 function checkIfExists(event) {
     for (index in questions) {
-        if (questions[index].comentary == comentaryInput.value) {
+        if (questions.length >= 0 && questions[index].comentary == comentaryInput.value) {
             alert('Já existe')
             event.prevantDefault()
         }
@@ -38,6 +39,7 @@ document.querySelector('button').onclick = () => {
 }
 
 function writeBoard() {
+    board.innerHTML =''
     for (index = 0; index < questions.length; index++) {
         board
             .innerHTML += `<h3>Nome: ${questions[index].name}</h3>`
