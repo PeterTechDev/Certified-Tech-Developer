@@ -17,13 +17,7 @@ function createObjQuestion(name, theme, comentary) {
     questions.push(new Question(name.value, theme.value, comentary.value))
 }
 
-function checkIfExist(event) {
-    //     for (let index = 0; index < questions.length; index++) {
-    //         if (questions[index].comentary == comentaryInput.value) {
-    //             alert('Já existe')
-    //             event.prevantDefault()
-    //         }
-    //     }
+function checkIfExists(event) {
     for (index in questions) {
         if (questions[index].comentary == comentaryInput.value) {
             alert('Já existe')
@@ -37,7 +31,7 @@ function setStorage() {
 }
 
 document.querySelector('button').onclick = () => {
-    checkIfExist()
+    checkIfExists()
     createObjQuestion(nameInput, themeInput, comentaryInput)
     setStorage()
     writeBoard()
