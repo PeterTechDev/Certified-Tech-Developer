@@ -28,3 +28,15 @@ h1{
     background:greenyellow;
     border-radius: 40px;
 }
+
+.board{
+    width: 400px;
+    display: flex;
+    border: 1px solid #000;
+    margin: auto;
+    align-items: center;
+}
+
+.board h3, p{
+    margin: 0 5px;
+}

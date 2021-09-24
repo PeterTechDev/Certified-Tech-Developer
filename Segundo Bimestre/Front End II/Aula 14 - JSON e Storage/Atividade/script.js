@@ -3,7 +3,6 @@ const nameInput = document.querySelector('#name')
 const themeInput = document.querySelector('#theme')
 const comentaryInput = document.querySelector('#textarea')
 
-// let dataBase = JSON.parse(localStorage.getItem(dataBase)) || {}
 let questions = JSON.parse(localStorage.getItem('DBquestions')) || []
 
 function Question(name, theme, comentary) {
@@ -18,9 +17,9 @@ function createObjQuestion(name, theme, comentary) {
     questions.push(new Question(name.value, theme.value, comentary.value))
 }
 
-function checkIfExist (event){
+function checkIfExist(event) {
     for (let index = 0; index < questions.length; index++) {
-        if(questions[index].comentary == comentaryInput.value){
+        if (questions[index].comentary == comentaryInput.value) {
             alert('Já existe')
             event.prevantDefault()
         }
@@ -30,12 +29,6 @@ function checkIfExist (event){
 function setStorage() {
     localStorage.setItem('DBquestions', JSON.stringify(questions))
 }
-
-// function getState (){
-//     const obj = 
-// }
-
-const clearLocalStorage = () => localStorage.clear()
 
 document.querySelector('button').onclick = () => {
     checkIfExist()
@@ -47,12 +40,16 @@ document.querySelector('button').onclick = () => {
 function writeBoard() {
     for (index = 0; index < questions.length; index++) {
         board
-            .innerHTML += `<h3>${questions[index].name}</h3>`
+            .innerHTML += `<h3>Nome: ${questions[index].name}</h3>`
         board
-            .innerHTML += `<p>${questions[index].theme}</p>`
+            .innerHTML += `<p>Assunto: ${questions[index].theme}</p>`
         board
-            .innerHTML += `<p>${questions[index].comentary}</p>`
+            .innerHTML += `<p>Descrição: ${questions[index].comentary}</p>`
     }
 }
 writeBoard()
 
+const clear = () => {
+    localStorage.removeItem('DBquestions')
+    location.reload()
+}
