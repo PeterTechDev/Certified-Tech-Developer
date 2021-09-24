@@ -18,7 +18,13 @@ function createObjQuestion(name, theme, comentary) {
 }
 
 function checkIfExist(event) {
-    for (let index = 0; index < questions.length; index++) {
+    //     for (let index = 0; index < questions.length; index++) {
+    //         if (questions[index].comentary == comentaryInput.value) {
+    //             alert('Já existe')
+    //             event.prevantDefault()
+    //         }
+    //     }
+    for (index in questions) {
         if (questions[index].comentary == comentaryInput.value) {
             alert('Já existe')
             event.prevantDefault()
