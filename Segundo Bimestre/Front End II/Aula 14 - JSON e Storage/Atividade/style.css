@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.container{
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.container input, textarea{
+    padding: 4px;
+    margin: 3px 10px;
+}
+
+.container button {
+    margin-top: 10px;
+    width: 50%;
+    align-self: center;
+    background:greenyellow;
+    border-radius: 40px;
+}
