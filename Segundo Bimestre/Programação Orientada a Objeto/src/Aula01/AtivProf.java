@@ -26,9 +26,11 @@ public class AtivProf {
         String inicialNome = nome.charAt(0) + " " + sobrenome.charAt(0);
 
 
-        System.out.println("Digite sua data de nascimento:");
+        System.out.println("Digite seu dia de nascimento:");
         String dia = entrada.nextLine();
+        System.out.println("Digite seu mês de nascimento:");
         String mes = entrada.nextLine();
+        System.out.println("Digite seu ano de nascimento:");
         String ano = entrada.nextLine();
 
         System.out.println("Seu nome é " + nome + " " + sobrenome + " " + "Suas iniciais " + inicialNome + " " + "Sua data de nascimento: " + dataNasc(dia, mes, ano));

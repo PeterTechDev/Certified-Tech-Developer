@@ -5,33 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9febab31-e35a-48a0-8500-55bba631ab24" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/compararInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/exercicioSimplesVariaveis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teste/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teste/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teste/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teste/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teste/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teste/src/Estudante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front End II/Aula 19 - Explorando APIs/Atividade/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front End II/Aula 19 - Explorando APIs/Atividade/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front End II/Aula 19 - Explorando APIs/Atividade/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front End II/Aula 19 - Explorando APIs/Atividade/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POO/.idea/dictionaries/petertechdev.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/exemploScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/exercicioComProfessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/exercicios/exercicio2ifElseEquals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/exercicios/exercicio3Scanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/exercicios/exercicio4Funcoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/mesaTrabalho/exercicio1verificarNumerosPrimos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/mesaTrabalho/exercicio2verificarMaiorNumero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO/out/production/POO/Aula02Variaveis/exemploInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO/out/production/POO/Aula02Variaveis/exercicioSimplesVariaveis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/compararInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/exemploCompararInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/exercicioSimplesVariaveis.java" beforeDir="false" afterPath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/exercicios/exercicio1Variaveis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula01/AtivProf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula02/exercicioVerificarNumPrimo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula02/exerciseInteger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula02/exerciseIntegrador.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula02/exerciseString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula05/Cliente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula05/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula05/Mesa/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula05/Mesa/UsuarioJogo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula06/Impressora.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula06/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula06/pratica/AdoteOrg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula06/pratica/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula01/AtivProf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula01/AtivProf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula01/teste.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/AtivProf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/AtivProf.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,13 +62,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
-  <component name="RunManager" selected="Application.teste">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aula06.Main" />
+  <component name="RunManager" selected="Application.AtivProf">
+    <configuration name="AtivProf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aula01.AtivProf" />
       <module name="Programação Orientada a Objeto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Aula06.*" />
+          <option name="PATTERN" value="Aula01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AtivProf" />
         <item itemvalue="Application.teste" />
         <item itemvalue="Application.exercicioVerificarNumPrimo" />
         <item itemvalue="Application.exerciseIntegrador" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
