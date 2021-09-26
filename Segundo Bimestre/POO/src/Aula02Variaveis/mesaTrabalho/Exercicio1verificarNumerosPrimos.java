@@ -10,7 +10,7 @@ package Aula02Variaveis.mesaTrabalho;
 
 import java.util.Scanner;
 
-public class exercicio1verificarNumerosPrimos {
+public class Exercicio1verificarNumerosPrimos {
     public static String primeNumber(int num) {
         String result;
         if (num != 2 && num % 2 == 0 || num == 1) result = "Não é primo";

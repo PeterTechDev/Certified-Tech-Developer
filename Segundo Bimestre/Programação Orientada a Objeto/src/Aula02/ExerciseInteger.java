@@ -7,7 +7,7 @@ Mostre o resultado obtido.
  */
 
 
-public class exerciseInteger {
+public class ExerciseInteger {
     public static void main(String[] args) {
         Integer first = 30;
         Integer second = 30;

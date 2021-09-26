@@ -2,7 +2,7 @@ package Aula02;
 
 import java.util.Scanner;
 
-public class exercicioVerificarNumPrimo {
+public class ExercicioVerificarNumPrimo {
     public static String primeNumber(int num) {
         String result;
         if (num != 2 && num % 2 == 0 || num == 1) {

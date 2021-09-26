@@ -7,7 +7,7 @@ uma terceira com as suas iniciais.
 
 import java.util.Scanner;
 
-public class exerciseIntegrador {
+public class ExerciseIntegrador {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

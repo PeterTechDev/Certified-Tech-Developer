@@ -6,7 +6,7 @@ package Aula02Variaveis.exercicios;
 
 //Mostre o resultado obtido.
 
-public class exercicio2ifElseEquals {
+public class Exercicio2ifElseEquals {
     public static void main(String[] args) {
 
         String phrase1 = "Hello darkness my old friend";
