@@ -5,8 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9febab31-e35a-48a0-8500-55bba631ab24" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/compararInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/exercicioSimplesVariaveis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../teste/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../teste/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../teste/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../teste/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../teste/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../teste/src/Estudante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front End II/Aula 19 - Explorando APIs/Atividade/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front End II/Aula 19 - Explorando APIs/Atividade/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front End II/Aula 19 - Explorando APIs/Atividade/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front End II/Aula 19 - Explorando APIs/Atividade/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula05/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula05/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula01/AtivProf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula02/exercicioVerificarNumPrimo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula02/exerciseInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula02/exerciseIntegrador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula02/exerciseString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula05/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula05/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula05/Mesa/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula05/Mesa/UsuarioJogo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula06/Impressora.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula06/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula06/pratica/AdoteOrg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula06/pratica/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +67,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../POO" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.teste">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aula06.Main" />
       <module name="Programação Orientada a Objeto" />
@@ -75,25 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aula05.Main" />
+    <configuration name="exercicioVerificarNumPrimo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aula02.exercicioVerificarNumPrimo" />
       <module name="Programação Orientada a Objeto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Aula05.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aula06.Principal" />
-      <module name="Programação Orientada a Objeto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Aula06.*" />
+          <option name="PATTERN" value="Aula02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,13 +126,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aula01.teste" />
+      <module name="Programação Orientada a Objeto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Aula01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.teste" />
+        <item itemvalue="Application.exercicioVerificarNumPrimo" />
+        <item itemvalue="Application.exerciseIntegrador" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Principal" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.exerciseIntegrador" />
       </list>
     </recent_temporary>
   </component>
@@ -146,5 +171,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/POO$exercicioVerificarNumPrimo.ic" NAME="exercicioVerificarNumPrimo Coverage Results" MODIFIED="1632666818555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Aula02.*</FILTER>
+    </SUITE>
   </component>
 </project>
