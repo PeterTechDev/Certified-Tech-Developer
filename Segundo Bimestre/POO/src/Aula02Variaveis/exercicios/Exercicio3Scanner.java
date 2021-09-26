@@ -5,7 +5,7 @@ import java.util.Scanner;
 //Digite seu nome e sobrenome separadamente,
 //a partir dessas variáveis, você deve obter uma terceira com as suas iniciais
 
-public class exercicio3Scanner {
+public class Exercicio3Scanner {
     public static void main(String[] args) {
         Scanner scan;
         scan = new Scanner(System.in);
@@ -14,6 +14,7 @@ public class exercicio3Scanner {
         String lastName;
         char initialFistName;
         char initialLastName;
+//        String initials = firstName.charAt(0) + " " + lastName.charAt(0)
 
         System.out.println("Digite seu primeiro nome");
         firstName = scan.nextLine();

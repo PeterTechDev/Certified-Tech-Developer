@@ -5,22 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9febab31-e35a-48a0-8500-55bba631ab24" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../POO/.idea/dictionaries/petertechdev.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/exemploScanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/exercicioComProfessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/exercicios/exercicio2ifElseEquals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/exercicios/exercicio3Scanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/exercicios/exercicio4Funcoes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/mesaTrabalho/exercicio1verificarNumerosPrimos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/mesaTrabalho/exercicio2verificarMaiorNumero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POO/out/production/POO/Aula02Variaveis/exemploInteger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POO/out/production/POO/Aula02Variaveis/exercicioSimplesVariaveis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/compararInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/exemploCompararInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/exercicioSimplesVariaveis.java" beforeDir="false" afterPath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/exercicios/exercicio1Variaveis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/exemploCompararInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/ExemploCompararInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/exemploScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/ExemploScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/exercicioComProfessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/ExercicioComProfessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/exercicios/exercicio1Variaveis.java" beforeDir="false" afterPath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/exercicios/Exercicio1Variaveis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/exercicios/exercicio2ifElseEquals.java" beforeDir="false" afterPath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/exercicios/Exercicio2ifElseEquals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/exercicios/exercicio3Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/exercicios/Exercicio3Scanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/exercicios/exercicio4Funcoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../POO/src/Aula02Variaveis/exercicios/Exercicio4Funcoes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula01/AtivProf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula01/AtivProf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programação Orientada a Objeto/Aula01/teste.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula01/AtivProf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/AtivProf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula02/exercicioVerificarNumPrimo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula02/ExercicioVerificarNumPrimo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula02/exerciseInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula02/ExerciseInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula02/exerciseIntegrador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula02/ExerciseIntegrador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula02/exerciseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula02/ExerciseString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,38 +72,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExercicioVerificarNumPrimo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aula02.ExercicioVerificarNumPrimo" />
+      <module name="Programação Orientada a Objeto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Aula02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExerciseIntegrador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aula02.ExerciseIntegrador" />
+      <module name="Programação Orientada a Objeto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Aula02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aula06.pratica.Main" />
       <module name="Programação Orientada a Objeto" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Aula06.pratica.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="exercicioVerificarNumPrimo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aula02.exercicioVerificarNumPrimo" />
-      <module name="Programação Orientada a Objeto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Aula02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="exerciseIntegrador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aula02.exerciseIntegrador" />
-      <module name="Programação Orientada a Objeto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Aula02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,8 +128,8 @@
       <list>
         <item itemvalue="Application.AtivProf" />
         <item itemvalue="Application.teste" />
-        <item itemvalue="Application.exercicioVerificarNumPrimo" />
-        <item itemvalue="Application.exerciseIntegrador" />
+        <item itemvalue="Application.ExercicioVerificarNumPrimo" />
+        <item itemvalue="Application.ExerciseIntegrador" />
         <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>

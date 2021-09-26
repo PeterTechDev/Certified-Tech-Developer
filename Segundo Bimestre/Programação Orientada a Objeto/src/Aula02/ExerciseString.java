@@ -6,7 +6,7 @@ Verifique se são iguais ou diferentes e indique por meio de mensagem.
  */
 
 
-public class exerciseString {
+public class ExerciseString {
     public static void main (String[] args){
 
         String quote1 = "Be yourself; everyone else is already taken";

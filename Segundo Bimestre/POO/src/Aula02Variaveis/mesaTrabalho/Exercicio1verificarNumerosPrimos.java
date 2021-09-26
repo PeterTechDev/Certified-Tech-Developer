@@ -13,6 +13,7 @@ import java.util.Scanner;
 public class Exercicio1verificarNumerosPrimos {
     public static String primeNumber(int num) {
         String result;
+
         if (num != 2 && num % 2 == 0 || num == 1) result = "Não é primo";
         else if (num == 2 || num == 3) {
             result = "É primo";

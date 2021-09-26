@@ -2,7 +2,7 @@ package Aula02Variaveis;
 
 import java.util.Scanner;
 
-public class exemploScanner {
+public class ExemploScanner {
     public static void main(String[] args) {
         Scanner scan;
         scan = new Scanner(System.in);
@@ -26,6 +26,6 @@ public class exemploScanner {
         //Para entrada de texto é usado o nextLine
         System.out.println("Digite seu nome");
         nome = scan.nextLine();
-        //Não consegio CAPTURAR A STRNIG NOME
+        //Não consegui CAPTURAR A STRING NOME
     }
 }

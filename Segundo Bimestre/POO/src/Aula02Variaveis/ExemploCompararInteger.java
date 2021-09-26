@@ -1,6 +1,6 @@
 package Aula02Variaveis;
 
-public class exemploCompararInteger {
+public class ExemploCompararInteger {
     public static void main(String[] args) {
         Integer valor1 = 10;
         Integer valor2 = 30;

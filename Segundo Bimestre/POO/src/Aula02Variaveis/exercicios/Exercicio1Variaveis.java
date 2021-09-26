@@ -5,7 +5,7 @@ package Aula02Variaveis.exercicios;
 
 //NOTA: O fato de ser divisível significa que ao dividir precisa dar um valor exato, ou seja, sem decimais.
 
-public class exercicio1Variaveis {
+public class Exercicio1Variaveis {
     public static void main(String[] args) {
         int numA = 10;
         int numB = 2;

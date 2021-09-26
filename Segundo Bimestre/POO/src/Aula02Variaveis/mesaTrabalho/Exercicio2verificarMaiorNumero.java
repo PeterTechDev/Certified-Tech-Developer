@@ -4,7 +4,7 @@ package Aula02Variaveis.mesaTrabalho;
 //Em seguida, faça um programa que permita a entrada de 3 valores, use a função e exiba o resultado.
 
 
-public class exercicio2verificarMaiorNumero {
+public class Exercicio2verificarMaiorNumero {
 
     }
 

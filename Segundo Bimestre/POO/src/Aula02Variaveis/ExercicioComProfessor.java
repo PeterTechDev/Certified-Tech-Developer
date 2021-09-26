@@ -7,7 +7,7 @@ package Aula02Variaveis;
 
 //Nota: Use alguma função para resolver, por exemplo, dados os 3 valores, retorne a data como uma string.
 
-public class exercicioComProfessor {
+public class ExercicioComProfessor {
     public static String getDataNascimento(int day, int month, int year) {
         return day + "/" + month + "/" + year;
     }

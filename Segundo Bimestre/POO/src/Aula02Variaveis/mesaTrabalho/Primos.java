@@ -1,5 +1,6 @@
 package Aula02Variaveis.mesaTrabalho;
 
+
 import java.util.Scanner;
 
 public class Primos {
